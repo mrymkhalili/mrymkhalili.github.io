@@ -10,44 +10,8 @@ div{
 	height: 100px;
 	background: #fafafa;
 	text-transform: uppercase;
+	z-index: 10;
 }
-
-#box2 { 
-	position: absolute; 
-	top: 100px;
-	right: 0;
-	left: 0;
-	height: 470px;
-	background: #b1e0df;
-}
-
-#box3 { 
-	position: absolute; 
-	height: 500px;
-	top: 570px;
-	right: 0;
-	left: 0;
-	background: #eeb5bd;
-}
-
-img {
-	position: absolute;
-	top: 15%;
-	left: 22%;
-	padding: 0;
-	height: 399px;
-	width: 800px;
-}
-
-#box4 { 
-	position: absolute; 
-	height: 500px;
-	top: 1070px;
-	right: 0;
-	left: 0;
-	background: #6d5070;
-}
-
 
 
 #name {
@@ -62,3 +26,55 @@ img {
 	font-weight: 900;
 	font-weight: bolder;
 }
+
+
+#box2 { 
+	position: absolute; 
+	top: 100px;
+	right: 0;
+	left: 0;
+	height: 470px;
+	background: #b1e0df;
+	text-align: center;
+	display: inline-block;
+}
+
+img {
+	height: 399px;
+	width: 800px;
+
+}
+
+#box3 { 
+	position: absolute; 
+	height: 500px;
+	top: 570px;
+	right: 0;
+	left: 0;
+	background: #eeb5bd;
+	text-align: center;
+}
+
+
+#welcome {
+	font-weight: 400;
+	color: black;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 2px;
+	font-weight: 900;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+
+#box4 { 
+	position: absolute; 
+	height: 500px;
+	top: 1070px;
+	right: 0;
+	left: 0;
+	background: #6d5070;
+}
+
+
