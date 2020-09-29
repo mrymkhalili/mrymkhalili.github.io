@@ -2,19 +2,18 @@ div{
 	display: block;
 }
 
-#box1 { 
+#header { 
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100px;
 	background: #fafafa;
-	text-transform: uppercase;
 	z-index: 10;
 }
 
 
-#name {
+.title {
 	position: absolute;
 	font-weight: 400;
 	color: black;
@@ -25,16 +24,28 @@ div{
 	letter-spacing: 2px;
 	font-weight: 900;
 	font-weight: bolder;
+	text-transform: uppercase;
+}
+.title2 {
+	position: absolute;
+	font-weight: 400;
+	color: black;
+	font-size: 15px;
+	font-family: "Montserrat", sans-serif;
+	margin-left: 45%;
+	font-weight: 900;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
 
-#box2 { 
+#box1 { 
 	position: absolute; 
 	top: 100px;
 	right: 0;
 	left: 0;
 	height: 470px;
-	background: #b1e0df;
+	background: #342d4f;
 	text-align: center;
 	display: inline-block;
 }
@@ -45,9 +56,9 @@ img {
 
 }
 
-#box3 { 
+#box2 { 
 	position: absolute; 
-	height: 500px;
+	height: 700px;
 	top: 570px;
 	right: 0;
 	left: 0;
@@ -55,8 +66,9 @@ img {
 	text-align: center;
 }
 
-
 #welcome {
+	position: relative;
+	margin-top: 0;
 	font-weight: 400;
 	color: black;
 	font-size: 14px;
@@ -68,13 +80,55 @@ img {
 }
 
 
-#box4 { 
+#box2_1 { 
+	position: absolute; 
+	height: 450px;
+	top:100px;
+	right: 200px;
+	left: 200px;
+	background: #5c5c5c;
+	text-align: center;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #fafafa;
+	padding: 40px;
+	border-radius: 10px;
+
+}
+
+#box3 { 
 	position: absolute; 
 	height: 500px;
-	top: 1070px;
+	top: 1270px;
 	right: 0;
 	left: 0;
-	background: #6d5070;
+	background: #dbe4ee;
 }
+
+#box3_1 { 
+	position: absolute; 
+	height: 200px;
+	top:80px;
+	left: 500px;
+	right: 500px;
+	background: #5c5c5c;
+	text-align: center;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	background-image: url("https://41z6h24c86pu1h3m6x151ecm-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/Baby-Yoda-photo-disney.jpg") ;
+	background-position-y: center;
+	background-position-x: center;
+	background-size: contain;
+	padding: 40px;
+	border-radius: 10px;
+
+}
+
 
 
