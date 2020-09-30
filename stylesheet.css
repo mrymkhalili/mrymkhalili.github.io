@@ -13,6 +13,16 @@ div{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .title {
 	position: absolute;
 	font-weight: 400;
@@ -101,7 +111,7 @@ img {
 
 #box3 { 
 	position: absolute; 
-	height: 500px;
+	height: 1000px;
 	top: 1270px;
 	right: 0;
 	left: 0;
@@ -127,7 +137,6 @@ img {
 	background-size: contain;
 	padding: 40px;
 	border-radius: 10px;
-
 }
 
 
