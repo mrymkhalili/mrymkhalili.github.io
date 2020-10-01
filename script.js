@@ -13,9 +13,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+
+/*
+
 function setImageVisible(theImage, visible) {
     var img = document.getElementById(theImage);
     img.style.visibility = (visible ? 'visible' : 'hidden');
 }
 
+
+*/
+
+alert("thanks for visiting my portfolio! you are cool and awesome :)");
 
