@@ -24,5 +24,5 @@ function setImageVisible(theImage, visible) {
 
 */
 
-alert("thanks for visiting my portfolio! you are cool and awesome :)");
+alert("thanks for visiting my portfolio! may the force be with you :)");
 
