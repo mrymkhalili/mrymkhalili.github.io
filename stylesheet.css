@@ -16,13 +16,6 @@ div{
 
 
 
-
-
-
-
-
-
-
 .title {
 	position: absolute;
 	font-weight: 400;
@@ -115,7 +108,8 @@ img {
 	top: 1270px;
 	right: 0;
 	left: 0;
-	background: #dbe4ee;
+	background: #dbe4ee;	
+
 }
 
 #box3_1 { 
@@ -127,7 +121,6 @@ img {
 	background: #5c5c5c;
 	text-align: center;
     font-family: 'Monaco', 'Courier New';
-    text-align: left;
 	font-size: 13px;
 	letter-spacing: 1px;
 	line-height: 30px;
@@ -140,4 +133,25 @@ img {
 }
 
 
+#btn {
+	position: absolute;
+	text-align: center;
+    font-family: 'Monaco', 'Courier New';
+	font-size: 13px;
+	top: 40%;
+	left: 49%;
+	right:49%;
+	
+}
 
+a:hover {
+	cursor: pointer;
+}
+
+#theImage { 
+	
+}
+
+#showImage {
+	background-color: blue;
+}
