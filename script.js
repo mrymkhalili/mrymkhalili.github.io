@@ -3,6 +3,7 @@ let bae = "good meowning"
 
 console.log(bae);
 
+/* the watch button */
 document.addEventListener("DOMContentLoaded", function() {
     var element = document.createElement("button");
     element.appendChild(document.createTextNode("Watch"));
