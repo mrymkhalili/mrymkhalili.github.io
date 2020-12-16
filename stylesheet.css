@@ -11,32 +11,19 @@ div{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100px;
+	height: 13%;
 	background: #fafafa;
 	z-index: 10;
+	text-align: center;
 }
 
 .title {
-	position: absolute;
-	font-weight: 400;
+	font-weight: 2500%;
 	color: black;
-	font-size: 15px;
-	top: 45%;
+	font-size: 100%;
+	vertical-align: middle;
 	font-family: "Montserrat", sans-serif;
-	margin-left: 45%;
 	letter-spacing: 2px;
-	font-weight: 900;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
-.title2 {
-	position: absolute;
-	font-weight: 400;
-	color: black;
-	font-size: 15px;
-	font-family: "Montserrat", sans-serif;
-	margin-left: 45%;
-	font-weight: 900;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
@@ -44,56 +31,45 @@ div{
 
 #box1 { 
 	position: absolute; 
-	top: 100px;
+	top: 13%;
 	right: 0;
 	left: 0;
-	height: 470px;
+	height: 75%;
 	background: #342d4f;
 	text-align: center;
 	display: inline-block;
 }
 
-img {
-	height: 399px;
-	width: 800px;
+.design {
+	width: 60%;
+	height: auto;
+	text-align: center;
+	margin-top: 5%;
 
 }
 
 #box2 { 
 	position: absolute; 
-	height: 700px;
-	top: 570px;
+	height: 105%;
+	top: 88%;
 	right: 0;
 	left: 0;
 	background: #eeb5bd;
 	text-align: center;
 }
 
-#welcome {
-	position: relative;
-	margin-top: 0;
-	font-weight: 400;
-	color: black;
-	font-size: 14px;
-	font-family: "Montserrat", sans-serif;
-	letter-spacing: 2px;
-	font-weight: 900;
-	font-weight: bolder;
-	text-transform: uppercase;
-}
 
-
-#box2_1 { 
+#about_me { 
 	position: absolute; 
-	height: 450px;
-	top:100px;
-	right: 200px;
-	left: 200px;
+	height: 70%;
+	top:13%;
+	right: 15%;
+	left: 15%;
 	background: #5c5c5c;
 	text-align: center;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
-	font-size: 13px;
+	font-size: 85%;
 	letter-spacing: 1px;
 	line-height: 30px;
 	color: #fafafa;
@@ -104,54 +80,76 @@ img {
 
 #box3 { 
 	position: absolute; 
-	height: 1000px;
-	top: 1270px;
+	height: 300%;
+	top: 193%;
 	right: 0;
 	left: 0;
 	background: #dbe4ee;	
-
+	text-align: center;
 }
 
-#box3_1 { 
+#project_1 { 
 	position: absolute; 
-	height: 200px;
-	top:80px;
-	left: 500px;
-	right: 500px;
+	height: 15%;
+	top: 5%;
+	left: 20%;
+	right: 20%;
 	background: #5c5c5c;
-	text-align: center;
+	text-align: left;
     font-family: 'Monaco', 'Courier New';
-	font-size: 13px;
+	font-size: 85%;
 	letter-spacing: 1px;
-	line-height: 30px;
-	background-image: url("https://41z6h24c86pu1h3m6x151ecm-wpengine.netdna-ssl.com/wp-content/uploads/2019/12/Baby-Yoda-photo-disney.jpg") ;
-	background-position-y: center;
-	background-position-x: center;
-	background-size: contain;
-	padding: 40px;
-	border-radius: 10px;
+	padding: 20px;
+
 }
-
-
-#btn {
+#project_2 {
 	position: absolute;
-	text-align: center;
+	top: 25%;
+	height: 15%;
+	left: 20%;
+	right: 20%;
+	background: #5c5c5c;
+	text-align: right;
     font-family: 'Monaco', 'Courier New';
-	font-size: 13px;
-	top: 40%;
-	left: 49%;
-	right:49%;
-	
+	font-size: 85%;
+	letter-spacing: 1px;
+	padding: 20px;
 }
 
-a:hover {
-	cursor: pointer;
+#project_3 {
+	position: absolute;
+	top: 45%;
+	height: 15%;
+	left: 20%;
+	right: 20%;
+	background: #5c5c5c;
+	text-align: left;
+    font-family: 'Monaco', 'Courier New';
+	font-size: 85%;
+	letter-spacing: 1px;
+	padding: 20px;
 }
 
-#theImage { 
-	
+#project_4 {
+	position: absolute;
+	top: 65%;
+	height: 15%;
+	left: 20%;
+	right: 20%;
+	background: #5c5c5c;
+	text-align: right;
+    font-family: 'Monaco', 'Courier New';
+	font-size: 85%;
+	letter-spacing: 1px;
+	padding: 20px;
 }
 
-#showImage {
-	background-color: blue;
+#mouse_over {
+	opacity: 0.7;
+  }
+  
+#mouse_over:hover {
+opacity: 1;
 }
+
+
